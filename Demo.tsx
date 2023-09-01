@@ -7,7 +7,7 @@ export default function SwitchLabels() {
   return (
     <FormGroup
       sx={{
-        m: 2,
+        m: 10,
       }}
     >
       <FormControlLabel
@@ -15,16 +15,16 @@ export default function SwitchLabels() {
           <Switch
             defaultChecked
             sx={{
-              zoom: 10,
-              width: 26,
-              height: 16,
+              zoom: 15,
+              width: 28,
+              height: 18,
               p: 0,
               border: '2px solid #FFC202',
-              borderRadius: 7,
+              borderRadius: 9,
               transform: 'rotate(-90deg)',
 
               '.MuiButtonBase-root': {
-                p: '1px',
+                p: '2px',
 
                 '&.Mui-checked': {
                   transform: 'translateX(10px)',
